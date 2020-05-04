@@ -11,8 +11,8 @@
          Your result:
 
       <?php
-         $res = 0;
-         $all = 2;
+         $res = 1;
+         $all = 3;
 
          $A1 = htmlspecialchars($_POST['Question1']);
          $A2 = htmlspecialchars($_POST['Question2']);

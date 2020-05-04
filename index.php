@@ -10,7 +10,13 @@
 
 <body>
    <h1><center>
-      Friends
+      <span class="red">F</span>
+      <span class="blue">R</span>
+      <span class="yellow">I</span>
+      <span class="red">E</span>
+      <span class="blue">N</span>
+      <span class="yellow">D</span>
+      <span class="red">S</span>
    </center></h1>
 
    <ul>
@@ -27,45 +33,62 @@
    <form action="results.php" method="post">
 
       <h2>Whose eyes does Ross have?</h2>
-      <label>
-         <input type="radio" name="Question1" value="Grandmother's">
-         Grandmother's
+      <label class="container">Grandmother's
+         <input type="radio" checked="checked" name="Question1" value="Grandmother's">
+         <span class="checkmark"></span>
       </label><br>
-      <label>
-         <input type="radio" name="Question1" value="Father's">
-         Father's
+      <label class="container">Father's
+         <input type="radio" checked="checked" name="Question1" value="Father's">
+         <span class="checkmark"></span>
       </label><br>
-      <label>
-         <input type="radio" name="Question1" value="Aunt's">
-         Aunt's
+      <label class="container">Aunt's
+         <input type="radio" checked="checked" name="Question1" value="Aunt's">
+         <span class="checkmark"></span>
       </label><br>
-      <label>
-         <input type="radio" name="Question1" value="His cousin's">
-         His cousin's
+      <label class="container">His cousin's
+         <input type="radio" checked="checked" name="Question1" value="His cousin's">
+         <span class="checkmark"></span>
       </label><br>
 
 
       <h2>What is Flimbees?</h2>
-      <label>
-         <input type="radio" name="Question2" value="Name of the company where Rachel had her firt fashion-related job">
-         Name of the company where Rachel had her firt fashion-related job
+      <label class="container">Name of the company where Rachel had her firt fashion-related job
+         <input type="radio" checked="checked" name="Question2" value="Name of the company where Rachel had her firt fashion-related job">
+         <span class="checkmark"></span>
       </label><br>
-      <label>
-         <input type="radio" name="Question2" value="First Emma's word">
-         First Emma's word
+      <label class="container">First Emma's word
+         <input type="radio" checked="checked" name="Question2" value="First Emma's word">
+         <span class="checkmark"></span>
       </label><br>
-      <label>
-         <input type="radio" name="Question2" value="Word Phoebe uses when she can't remember the real thing">
-         Word Phoebe uses when she can't remember the real thing
+      <label class="container">Word Phoebe uses when she can't remember the real thing
+         <input type="radio" checked="checked" name="Question2" value="Word Phoebe uses when she can't remember the real thing">
+         <span class="checkmark"></span>
       </label><br>
-      <label>
-         <input type="radio" name="Question2" value="Mike's dog's name">
-         Mike's dog's name
+      <label class="container">Mike's dog's name
+         <input type="radio" checked="checked" name="Question2" value="Mike's dog's name">
+         <span class="checkmark"></span>
+      </label><br>
+
+      <h2>Is this quiz awesome?</h2>
+      <label class="container">Yes!!!
+         <input type="radio" checked="checked" name="Question3" value="Yes!!!">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Sure!
+         <input type="radio" checked="checked" name="Question3" value="Sure!">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Yeah!!
+         <input type="radio" checked="checked" name="Question3" value="Yeah!!">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Obviously!
+         <input type="radio" checked="checked" name="Question3" value="Obviously!">
+         <span class="checkmark"></span>
       </label><br>
 
       <br><br>
-
-      <input style="background-color: lightgreen; color: red; height: 70px; width: 200px" type="submit" name="" value="Check!">
+      <input class="submit" type="submit" value="Check!">
    </form>
 
 </body>

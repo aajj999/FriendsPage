@@ -16,17 +16,12 @@
       <span class="red">E</span>
       <span class="blue">N</span>
       <span class="yellow">D</span>
-      <span class="red">S</span>
+      <span class="red">S</span><br>
+      <span class="blue">Q</span>
+      <span class="yellow">U</span>
+      <span class="red">I</span>
+      <span class="blue">Z</span>
    </center></h1>
-
-   <ul>
-      <li><a href="https://en.wikipedia.org/wiki/Rachel_Green" class="nawigacja">Rachel</a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Chandler_Bing" class="nawigacja">Chandler</a></li>
-      <li><a href="" class="nawigacja">Joey</a></li>
-      <li><a href="" class="nawigacja">Monica</a></li>
-      <li><a href="" class="nawigacja">Ross</a></li>
-      <li><a href="" class="nawigacja">Phoebe</a></li>
-   </ul>
 
    <br><br>
 

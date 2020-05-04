@@ -1,6 +1,7 @@
 body{
    background-color: lightblue;
    font-family: "Comic Sans MS", cursive, sans-serif;
+   font-size: 17px;
 }
 
 h1{
@@ -26,7 +27,7 @@ h1{
   width: 300px;
   position: relative;
   padding-left: 50px;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
   cursor: pointer;
   font-size: 17px;
   -webkit-user-select: none;
@@ -69,4 +70,8 @@ h1{
    font-size: 20px;
    height: 60px;
    width: 180px;
+}
+
+.results{
+   font-size: 40px;
 }

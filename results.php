@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="styles.css">
    </head>
    <body>
-      <h1><center>
+      <center><p class="results">
          Your result:
 
       <?php
@@ -24,10 +24,18 @@
             $res = $res + 1;
          }
 
-         echo "$res / $all";
+         echo "$res / $all <br>";
+
+         if($res/$all > 0.8){
+            echo "Wow! Congratulations! You know Friends very well";
+         }
+         if($res/$all < 0.5){
+            echo "You definitely need to watch Friends again!";
+         }
+
       ?>
 
-      </center></h1>
+   </p></center>
 
    </body>
 </html>

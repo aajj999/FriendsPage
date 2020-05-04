@@ -1,7 +1,13 @@
 body{
-   background-color: lightblue;
+   background-color: red;
+   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h1{
    color: rgb(100, 70, 500);
+   font-size: 150px;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }

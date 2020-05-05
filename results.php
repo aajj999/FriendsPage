@@ -16,15 +16,19 @@
          $conn = OpenCon();
 
          $res = 1;
-         $all = 3;
+         $all = 4;
 
          $A1 = htmlspecialchars($_POST['Question1']);
          $A2 = htmlspecialchars($_POST['Question2']);
+         $A4 = htmlspecialchars($_POST['Question4']);
 
          if($A1 == "Grandmother's"){
             $res = $res + 1;
          }
          if($A2 == "Word Phoebe uses when she can't remember the real thing"){
+            $res = $res + 1;
+         }
+         if($A4 == "7"){
             $res = $res + 1;
          }
 
@@ -42,7 +46,7 @@
 
          echo"<br>";
          if ($conn->query($sql) === TRUE) {
-            $sql = "SELECT * FROM results";
+            $sql = "SELECT * FROM results ORDER BY NR";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -59,7 +63,14 @@
          CloseCon($conn);
       ?>
 
+   <br>
+   <div id="piechart"></div>
    </p></center>
+
+   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+   <script type="text/javascript" src="results.js"></script>
+
 
    </body>
 </html>

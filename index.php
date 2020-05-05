@@ -82,6 +82,24 @@
          <span class="checkmark"></span>
       </label><br>
 
+      <h2>How many sisters does Joey have?</h2>
+      <label class="container">0
+         <input type="radio" checked="checked" name="Question4" value="0">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">8
+         <input type="radio" checked="checked" name="Question4" value="8">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">2
+         <input type="radio" checked="checked" name="Question4" value="2">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">7
+         <input type="radio" checked="checked" name="Question4" value="7">
+         <span class="checkmark"></span>
+      </label><br>
+
       <br><br>
       <input class="submit" type="submit" value="Check!">
    </form>

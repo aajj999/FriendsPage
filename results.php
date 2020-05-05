@@ -11,6 +11,10 @@
          Your result:
 
       <?php
+
+         include 'db_connect.php';
+         $conn = OpenCon();
+
          $res = 1;
          $all = 3;
 
@@ -27,12 +31,32 @@
          echo "$res / $all <br>";
 
          if($res/$all > 0.8){
-            echo "Wow! Congratulations! You know Friends very well";
-         }
-         if($res/$all < 0.5){
-            echo "You definitely need to watch Friends again!";
+            echo "Wow! Congratulations! You know Friends very well <br>";
+            $sql = "UPDATE results SET how_many=how_many+1 WHERE res='>80%'";
+         }elseif($res/$all < 0.5){
+            echo "You definitely need to watch Friends again! <br>";
+            $sql = "UPDATE results SET how_many=how_many+1 WHERE res='<50%'";
+         }else{
+            $sql = "UPDATE results SET how_many=how_many+1 WHERE res='50%-80%'";
          }
 
+         echo"<br>";
+         if ($conn->query($sql) === TRUE) {
+            $sql = "SELECT * FROM results";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+               while($row = $result->fetch_assoc()) {
+                  echo "Result: " . $row["res"]. " - " . $row["how_many"]. " <br>";
+               }
+            } else {
+               echo "0 results";
+            }
+         } else {
+            echo "Error updating record: " . $conn->error;
+         }
+
+         CloseCon($conn);
       ?>
 
    </p></center>

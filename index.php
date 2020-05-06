@@ -100,6 +100,24 @@
          <span class="checkmark"></span>
       </label><br>
 
+      <h2>Who invented game "The cups"?</h2>
+      <label class="container">Chandler
+         <input type="radio" checked="checked" name="Question5" value="Chandler">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Phoebe
+         <input type="radio" checked="checked" name="Question5" value="Phoebe">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Monica
+         <input type="radio" checked="checked" name="Question5" value="Monica">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Joey
+         <input type="radio" checked="checked" name="Question5" value="Joey">
+         <span class="checkmark"></span>
+      </label><br>
+
       <br><br>
       <input class="submit" type="submit" value="Check!">
    </form>

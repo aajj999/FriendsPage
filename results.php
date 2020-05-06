@@ -16,11 +16,12 @@
          $conn = OpenCon();
 
          $res = 1;
-         $all = 4;
+         $all = 5;
 
          $A1 = htmlspecialchars($_POST['Question1']);
          $A2 = htmlspecialchars($_POST['Question2']);
          $A4 = htmlspecialchars($_POST['Question4']);
+         $A5 = htmlspecialchars($_POST['Question5']);
 
          if($A1 == "Grandmother's"){
             $res = $res + 1;
@@ -29,6 +30,9 @@
             $res = $res + 1;
          }
          if($A4 == "7"){
+            $res = $res + 1;
+         }
+         if($A5 == "Chandler"){
             $res = $res + 1;
          }
 

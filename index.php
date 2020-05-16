@@ -64,21 +64,21 @@
          <span class="checkmark"></span>
       </label><br>
 
-      <h2>Is this quiz awesome?</h2>
-      <label class="container">Yes!!!
-         <input type="radio" checked="checked" name="Question3" value="Yes!!!">
+      <h2>How many Thanksgivings did Emma celebrate during sitcom?</h2>
+      <label class="container">2
+         <input type="radio" checked="checked" name="Question3" value="2">
          <span class="checkmark"></span>
       </label><br>
-      <label class="container">Sure!
-         <input type="radio" checked="checked" name="Question3" value="Sure!">
+      <label class="container">1
+         <input type="radio" checked="checked" name="Question3" value="1">
          <span class="checkmark"></span>
       </label><br>
-      <label class="container">Yeah!!
-         <input type="radio" checked="checked" name="Question3" value="Yeah!!">
+      <label class="container">0
+         <input type="radio" checked="checked" name="Question3" value="0">
          <span class="checkmark"></span>
       </label><br>
-      <label class="container">Obviously!
-         <input type="radio" checked="checked" name="Question3" value="Obviously!">
+      <label class="container">3
+         <input type="radio" checked="checked" name="Question3" value="3">
          <span class="checkmark"></span>
       </label><br>
 
@@ -115,6 +115,42 @@
       </label><br>
       <label class="container">Joey
          <input type="radio" checked="checked" name="Question5" value="Joey">
+         <span class="checkmark"></span>
+      </label><br>
+
+      <h2>What was Kip's religion?</h2>
+      <label class="container">Islam
+         <input type="radio" checked="checked" name="Question6" value="Islam">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Christianity
+         <input type="radio" checked="checked" name="Question6" value="Christianity">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Buddhism
+         <input type="radio" checked="checked" name="Question6" value="Buddhism">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Judaism
+         <input type="radio" checked="checked" name="Question6" value="Judaism">
+         <span class="checkmark"></span>
+      </label><br>
+
+      <h2>Who was learning Spanish as a child?</h2>
+      <label class="container">Phoebe
+         <input type="radio" checked="checked" name="Question7" value="Phoebe">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Rachel
+         <input type="radio" checked="checked" name="Question7" value="Rachel">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Monica
+         <input type="radio" checked="checked" name="Question7" value="Monica">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Gunther
+         <input type="radio" checked="checked" name="Question7" value="Gunther">
          <span class="checkmark"></span>
       </label><br>
 

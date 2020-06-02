@@ -101,12 +101,12 @@
       </label><br>
 
       <h2>Who invented game "The cups"?</h2>
-      <label class="container">Chandler
-         <input type="radio" checked="checked" name="Question5" value="Chandler">
-         <span class="checkmark"></span>
-      </label><br>
       <label class="container">Phoebe
          <input type="radio" checked="checked" name="Question5" value="Phoebe">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Chandler
+         <input type="radio" checked="checked" name="Question5" value="Chandler">
          <span class="checkmark"></span>
       </label><br>
       <label class="container">Monica
@@ -155,16 +155,16 @@
       </label><br>
 
       <h2>What was in Rachel's schopping bag when Chandler an Joey were guessing?</h2>
-      <label class="container">Scotch tape
-         <input type="radio" checked="checked" name="Question8" value="Scotch tape">
-         <span class="checkmark"></span>
-      </label><br>
       <label class="container">Orange juice
          <input type="radio" checked="checked" name="Question8" value="Orange juice">
          <span class="checkmark"></span>
       </label><br>
       <label class="container">Hummus
          <input type="radio" checked="checked" name="Question8" value="Hummus">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Scotch tape
+         <input type="radio" checked="checked" name="Question8" value="Scotch tape">
          <span class="checkmark"></span>
       </label><br>
       <label class="container">Fashion magazine

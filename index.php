@@ -172,6 +172,24 @@
          <span class="checkmark"></span>
       </label><br>
 
+      <h2>Which one of them has never smoked a cigarette?</h2>
+      <label class="container">Monica
+         <input type="radio" checked="checked" name="Question9" value="Monica">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Ross
+         <input type="radio" checked="checked" name="Question9" value="Ross">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Rachel
+         <input type="radio" checked="checked" name="Question9" value="Rachel">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Joey
+         <input type="radio" checked="checked" name="Question9" value="Joey">
+         <span class="checkmark"></span>
+      </label><br>
+
       <br><br>
       <input class="submit" type="submit" value="Check!">
    </form>

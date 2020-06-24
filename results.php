@@ -75,7 +75,7 @@ CloseCon($conn);
          $conn = OpenCon();
 
          $res = 0;
-         $all = 9;
+         $all = 10;
 
          $A1 = htmlspecialchars($_POST['Question1']);
          $A2 = htmlspecialchars($_POST['Question2']);
@@ -86,6 +86,7 @@ CloseCon($conn);
          $A7 = htmlspecialchars($_POST['Question7']);
          $A8 = htmlspecialchars($_POST['Question8']);
          $A9 = htmlspecialchars($_POST['Question9']);
+         $A10 = htmlspecialchars($_POST['Question10']);
 
          if($A1 == "Grandmother's"){
             $res = $res + 1;
@@ -112,6 +113,9 @@ CloseCon($conn);
             $res = $res + 1;
          }
          if($A9 == "Ross"){
+            $res = $res + 1;
+         }
+         if($A10 == "All my children"){
             $res = $res + 1;
          }
 

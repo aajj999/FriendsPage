@@ -190,7 +190,7 @@
          <span class="checkmark"></span>
       </label><br>
 
-      <h2>In what soap opera was Gunther one of main charecters?</h2>
+      <h2>In which soap opera was Gunther one of main characters?</h2>
       <label class="container">All my children
          <input type="radio" checked="checked" name="Question10" value="All my children">
          <span class="checkmark"></span>
@@ -205,6 +205,24 @@
       </label><br>
       <label class="container">Days of our lifes
          <input type="radio" checked="checked" name="Question10" value="Days of our lifes">
+         <span class="checkmark"></span>
+      </label><br>
+
+      <h2>Where did Ross get Marcel?</h2>
+      <label class="container">Ross met him on the street and Marcel kept following him
+         <input type="radio" checked="checked" name="Question11" value="Ross met him on the street and Marcel kept following him">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Ross bought him from a guy on the street who offered a low price
+         <input type="radio" checked="checked" name="Question11" value="Ross bought him from a guy on the street who offered a low price">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">His friend rescued Marcel from some labs
+         <input type="radio" checked="checked" name="Question11" value="His friend rescued Marcel from some labs">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Ross's colleague from work had to give him away
+         <input type="radio" checked="checked" name="Question11" value="Ross's colleague from work had to give him away">
          <span class="checkmark"></span>
       </label><br>
 

@@ -75,7 +75,7 @@ CloseCon($conn);
          $conn = OpenCon();
 
          $res = 0;
-         $all = 11;
+         $all = 12;
 
          $A1 = htmlspecialchars($_POST['Question1']);
          $A2 = htmlspecialchars($_POST['Question2']);
@@ -88,6 +88,7 @@ CloseCon($conn);
          $A9 = htmlspecialchars($_POST['Question9']);
          $A10 = htmlspecialchars($_POST['Question10']);
          $A11 = htmlspecialchars($_POST['Question11']);
+         $A12 = htmlspecialchars($_POST['Question12']);
 
          if($A1 == "Grandmother's"){
             $res = $res + 1;
@@ -122,6 +123,9 @@ CloseCon($conn);
          if($A11 == "His friend rescued Marcel from some labs"){
             $res = $res + 1;
          }
+         if($A12 == "Cheerleaders were practicing the human pyramid and she was on top"){
+            $res = $res + 1;
+         }
 
          echo "$res / $all <br>";
 
@@ -142,7 +146,7 @@ CloseCon($conn);
 
             if ($result->num_rows > 0) {
                while($row = $result->fetch_assoc()) {
-                  echo "Result: " . $row["res"]. " - " . $row["how_many"]. " <br>";
+                  // echo "Result: " . $row["res"]. " - " . $row["how_many"]. " <br>";
                }
             } else {
                echo "0 results";

@@ -226,6 +226,24 @@
          <span class="checkmark"></span>
       </label><br>
 
+      <h2>Why didn't Rachel read "Wuthering Heights" in highschool?</h2>
+      <label class="container">Cheerleaders were practicing the human pyramid and she was on top
+         <input type="radio" checked="checked" name="Question12" value="Cheerleaders were practicing the human pyramid and she was on top">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">She was going to read it, but she ended up reading Vogue
+         <input type="radio" checked="checked" name="Question12" value="She was going to read it, but she ended up reading Vogue">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">Monica was supposed to read it and write Rachel's essay for her
+         <input type="radio" checked="checked" name="Question12" value="Monica was supposed to read it and write Rachel's essay for her">
+         <span class="checkmark"></span>
+      </label><br>
+      <label class="container">She was recovering from her nose surgery at the time
+         <input type="radio" checked="checked" name="Question12" value="She was recovering from her nose surgery at the time">
+         <span class="checkmark"></span>
+      </label><br>
+
       <br><br>
       <input class="submit" type="submit" value="Check!">
    </form>
